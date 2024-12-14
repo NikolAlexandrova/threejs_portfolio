@@ -22,3 +22,21 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Ignore files and directories outside the project
+../../*
+../*
+
+# Ignore macOS-specific files
+.DS_Store
+.Trash/
+
+# Ignore IDE and editor-specific files
+.idea/
+*.iml
+
+# Ignore system files and configurations
+.bash_profile
+.zsh_history
+.config/
+.local/
